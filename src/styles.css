@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.horizontal-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* background-color: pink; */
+}
+
+.item {
+  display: inline-block;
+  width: 200px; /* Set the width of each item */
+  /* height: 250px;  Set the height of each item */
+  margin-right: 10px; /* Add spacing between items */
+  background-color: #ccc;
+  /* text-align: center; */
+  /* line-height: 20px; */
+  /* margin-bottom: 20px; */
+  /* font-size: 18px; */
+  overflow: hidden;
+  align-items: center;
+}
